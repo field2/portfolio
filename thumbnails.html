@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/barebones.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
 
@@ -42,17 +43,34 @@
     </div>
 </main>
 <footer id="footer_site">
-    &copy;2021 Ben Dunkle
+    <p id="copyright">&copy;2021 Ben Dunkle</p>
+ <nav id="social_links">
+     <ul>
+         <li>
+            <a href="https://twitter.com/empireoflight">
+                <img src="img/icon-twitter.svg" alt="twitter-icon" class="social-icon">
+                </a>
+</li>
+<li>
+                <a href="https://youtube.com/empireoflight">
+                    <img src="img/icon-youtube.svg" alt="youtube-icon" class="social-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/empireoflight">
+                        <img src="img/icon-inst.svg" alt="inst-icon" class="social-icon">
+                        </a>
+         </li>
+     </ul>
+ </nav>
   </footer>
+
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/lightbox.min.js"></script>
 
   <script src="js/script.js"></script>
   <script>
       lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true
-  })lightbox.option({
     'resizeDuration': 200,
     'wrapAround': true
   })
