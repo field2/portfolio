@@ -5,9 +5,9 @@ $(document).ready(function () {
         $('.menu').toggleClass('appear');
 
     });
-    $('.carousel').flickity({
-        fullscreen: true,
-        lazyLoad: 1
-      });
+
+
+
 
 });
+

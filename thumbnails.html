@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <title>Ben Dunkle's Portfolio</title>
+  </head>
+
+<body class="thumbnails">
+    <header id="header_site">
+        <a href="/" id="logo_home">
+          <img src="img/logo.svg" id="logo_header" alt="Logo">
+        </a>
+        <nav id="nav_site">
+          <div class="hamburger">
+            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="22" height="4" rx="2" fill="white" />
+              <rect y="8" width="22" height="4" rx="2" fill="white" />
+              <rect y="16" width="22" height="4" rx="2" fill="white" />
+            </svg>
+          </div>
+          <ul class="menu">
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="main_site">
+    <h1>My Portfolio</h1>
+    <div class="thumbs">
+      <div class="thumb">
+        <a href="img/desktop-hotdog.jpg" data-lightbox="photos"><img src="img/thumb-hotdog.jpg" alt="Hotdog Thumbnail"></a></div>
+      <div class="thumb"><a href="img/desktop-bluejay.jpg" data-lightbox="photos"><img src="img/thumb-bluejay.jpg" alt="Blue Jay Thumbnail"></a></div>
+      <div class="thumb"><a href="img/desktop-food.jpg" data-lightbox="photos"><img src="img/thumb-food.jpg" alt="Food Thumbnail"></a></div>
+
+    </div>
+</main>
+<footer id="footer_site">
+    &copy;2021 Ben Dunkle
+  </footer>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+
+  <script src="js/script.js"></script>
+  <script>
+      lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  })lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  })
+  </script>
+</body>
+
+</html>

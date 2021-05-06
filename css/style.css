@@ -114,11 +114,7 @@ h1 {
   display: block;
   max-height: 100%;
 }
-div.thumb {
-  width: 300px;
-  height: 300px;
-  background: #fff;
-}
+
 
 @media screen and (orientation: landscape) {
  
@@ -168,9 +164,10 @@ a#logo_home {
   }
 
   div.thumbs {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
   }
 
   div.hamburger {
