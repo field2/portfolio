@@ -1,10 +1,13 @@
-$( document ).ready(function() {
+$(document).ready(function () {
 
-    $('.hamburger').click(function() {
-    $(this).toggleClass('animated');
-        $('#nav_site ul').toggleClass('appear');
-    
+    $('.hamburger').click(function () {
+        $(this).toggleClass('animated');
+        $('.menu').toggleClass('appear');
+
     });
-    
-    });
-    
+    $('.carousel').flickity({
+        fullscreen: true,
+        lazyLoad: 1
+      });
+
+});
