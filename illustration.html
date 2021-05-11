@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/barebones.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <title>Sierra Kinney's Portfolio</title>
+  </head>
+
+<body class="thumbnails">
+    <header id="header_site">
+        <h1>Sierra Kinney</h1>
+        <h2>Illustration</h2>
+        <nav id="nav_site">
+          <div class="hamburger">
+            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="22" height="4" rx="2" fill="white" />
+              <rect y="8" width="22" height="4" rx="2" fill="white" />
+              <rect y="16" width="22" height="4" rx="2" fill="white" />
+            </svg>
+          </div>
+          <ul class="menu">
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="main_site">
+    <div class="thumbs">
+      <div class="thumb">
+        <a href="img/desktop-movie.png" data-lightbox="illustrations" data-title="Big Lebowski Poster"><img src="img/thumb-movie.png" alt="Hotdog Thumbnail"></a></div>
+      <div class="thumb"><a href="img/desktop-bluejay.jpg" data-lightbox="illustrations"><img src="img/thumb-bluejay.jpg" alt="Blue Jay Thumbnail"></a></div>
+      <div class="thumb"><a href="img/desktop-food.jpg" data-lightbox="photos"><img src="img/thumb-food.jpg" alt="Food Thumbnail"></a></div>
+
+    </div>
+</main>
+<footer id="footer_site">
+    <p id="copyright">&copy;2021 Ben Dunkle</p>
+ <nav id="social_links">
+     <ul>
+         <li>
+            <a href="https://twitter.com/empireoflight">
+                <img src="img/icon-twitter.svg" alt="twitter-icon" class="social-icon">
+                </a>
+</li>
+<li>
+                <a href="https://youtube.com/empireoflight">
+                    <img src="img/icon-youtube.svg" alt="youtube-icon" class="social-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/empireoflight">
+                        <img src="img/icon-inst.svg" alt="inst-icon" class="social-icon">
+                        </a>
+         </li>
+     </ul>
+ </nav>
+  </footer>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+
+  <script src="js/script.js"></script>
+  <script>
+      lightbox.option({
+    'resizeDuration': 200,
+    'fadeDuration': 300,
+    'wrapAround': true
+  })
+  </script>
+</body>
+
+</html>

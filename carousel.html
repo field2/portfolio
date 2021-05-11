@@ -10,7 +10,7 @@
         <script src="js/script.js"></script>
         <title>Ben Dunkle's Portfolio</title>
       </head>
-   <body class="photos">
+   <body class="photos slider">
     <header id="header_site">
         <a href="/" id="logo_home">
           <img src="img/logo.svg" id="logo_header" alt="Logo">
@@ -45,26 +45,47 @@
                    <img src="img/mobile-hotdog.jpg">
                </div>
            </div>
-           <!-- CSS -->
-           <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-           <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
-           <!-- JavaScript -->
-           <script src="js/jquery-3.6.0.min.js"></script>
-           <script src="js/script.js"></script>
-           <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-           <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
-<script>
-        $('.carousel').flickity({
-        fullscreen: true,
-        lazyLoad: 1
-      });
-</script>
+
        </main>
         <footer id="footer_site">
             <p id="copyright">&copy;2021 Ben Dunkle</p>
-         
+            <nav id="social_links">
+              <ul>
+                  <li>
+                     <a href="https://twitter.com/empireoflight">
+                         <img src="img/icon-twitter.svg" alt="twitter-icon" class="social-icon">
+                         </a>
+         </li>
+         <li>
+                         <a href="https://youtube.com/empireoflight">
+                             <img src="img/icon-youtube.svg" alt="youtube-icon" class="social-icon">
+                             </a>
+                         </li>
+                         <li>
+                             <a href="https://instagram.com/empireoflight">
+                                 <img src="img/icon-inst.svg" alt="inst-icon" class="social-icon">
+                                 </a>
+                  </li>
+              </ul>
+          </nav>
           </footer>
+                   <!-- CSS -->
+                   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+                   <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+                   <!-- JavaScript -->
+                   <script src="js/jquery-3.6.0.min.js"></script>
+                   <script src="js/script.js"></script>
+                   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+                   <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+        <script>
+                $('.carousel').flickity({
         
+                lazyLoad: 1,
+                pageDots: false,
+                prevNextButtons: false
+
+              });
+        </script>
    </body>
   
 </html>
