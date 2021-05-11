@@ -5,6 +5,7 @@
   --background: #fff;
   --foreground: #000;
   --myfont: Montserrat;
+  --desktopwidth: 1192px;
 }
 
 
@@ -245,5 +246,21 @@ color: rgba(0, 0, 0, 0.5);
 .slideinfo {
   display:flex;
   justify-content:space-around;
-  width:1172px;
+  max-width:var(--desktopwidth);
+  margin:1rem;
+}
+
+.slidedescription {
+  color:var(--foreground);
+  max-width:var(--desktopwidth);
+  background: linear-gradient(to bottom, #5B37A8, #0255B6);
+  padding: 3px;
+  border-radius:7px;
+}
+
+.descriptioninner {
+  background-color:var(--background);
+  font-size:18px;
+  padding:1rem;
+  border-radius:5px;
 }
